@@ -7,3 +7,6 @@
 [submodule "toolset"]
 	path = toolset
 	url = git@github.com:JhonnyJason/toolset.git
+[submodule "content"]
+	path = content
+	url = git@github.com:JhonnyJason/susdox-pin-pwa-content.git
