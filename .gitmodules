@@ -1,0 +1,9 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:JhonnyJason/susdox-pin-pwa-output.git
+[submodule "sources"]
+	path = sources
+	url = git@github.com:JhonnyJason/susdox-pin-pwa-sources.git
+[submodule "toolset"]
+	path = toolset
+	url = git@github.com:JhonnyJason/toolset.git
