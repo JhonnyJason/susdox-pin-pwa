@@ -44,7 +44,7 @@
         "minify-html": "html-minifier --input-dir toolset/build/html/pretty/ --output-dir toolset/build/html/minified/ --file-ext html --collapse-whitespace --remove-comments --remove-redundant-attributes --remove-script-type-attributes --use-short-doctype --minify-js true --minify-css true",
         "prepare-webpack": "run-s rebuild-webpack-worker-config rebuild-webpack-config",
         "dev-bundle": "webpack-cli --config /home/lenny/thingies/susdox-pin-pwa/.build-config/webpack-dev-index.config.js",
-        "dev-worker-bundle": "echo 'no worker support yet!'",
+        "dev-worker-bundle": "webpack-cli --config .build-config/webpack-dev-worker-argon2worker.config.js",
         "watch-bundle": "webpack-cli --config /home/lenny/thingies/susdox-pin-pwa/.build-config/webpack-watch-index.config.js",
         "watch-worker-bundle": "echo 'no worker support yet!'",
         "deploy-bundle": "webpack-cli --config .build-config/webpack-deploy.config.js",
