@@ -1,0 +1,12 @@
+############################################################
+@deploy = https://www.bilder-befunde.at/pwa-api/api/v1/credentials
+
+############################################################
+
+### hack
+OPTIONS {{deploy}}
+content-type: application/json
+
+{
+    "a": "a"
+}
