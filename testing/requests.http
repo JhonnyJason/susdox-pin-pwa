@@ -1,10 +1,19 @@
 ############################################################
-@deploy = https://www.bilder-befunde.at/pwa-api/api/v1/credentials/
+@directory = https://www.bilder-befunde.at/pwa-api/api/v1/credentials/
+@ressource = https://www.bilder-befunde.at/pwa-api/api/v1/credentials
 
 ############################################################
 
 ### hack
-OPTIONS {{deploy}}
+OPTIONS {{directory}}
+content-type: application/json
+
+{
+    "a": "a"
+}
+
+### hack
+OPTIONS {{ressource}}
 content-type: application/json
 
 {
