@@ -1,5 +1,5 @@
 ############################################################
-@deploy = https://www.bilder-befunde.at/pwa-api/api/v1/credentials
+@deploy = https://www.bilder-befunde.at/pwa-api/api/v1/credentials/
 
 ############################################################
 
