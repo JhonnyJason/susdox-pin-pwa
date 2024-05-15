@@ -116,6 +116,6 @@
         "webpack-cli": "^5.1.4",
         "libsodium-wrappers-sumo": "^0.7.13",
         "thingy-byte-utils": "^0.0.8",
-        "navhandler": "^0.0.3"
+        "navhandler": "^0.0.4"
     }
 }
