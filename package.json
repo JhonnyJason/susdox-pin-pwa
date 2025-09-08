@@ -1,7 +1,7 @@
 {
     "name": "susdox-pin-pwa",
     "version": "0.0.1",
-    "description": "This is the shit!",
+    "description": "Lightweight PWA to for easy and convenient access to SusDox.",
     "scripts": {
         "build-coffee": "coffee -o toolset/build/js/ -c sources/source/*/*.coffee",
         "watch-coffee": "coffee -o toolset/build/js/ -cw sources/source/*/*.coffee",
